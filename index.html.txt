@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meet & Greet Event</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: url('https://images.unsplash.com/photo-1503428593586-e225b39bddfe') center/cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+section {
+  padding: 60px;
+  text-align: center;
+}
+
+.about { background: #f4f4f4; }
+
+.details { background: #fff; }
+
+.gallery img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.ticket {
+  background: #222;
+  color: white;
+}
+
+button {
+  padding: 15px 25px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Meet & Greet Event</h1>
+  <p>Come meet your favorite personality!</p>
+</header>
+
+<section class="about">
+  <h2>About The Event</h2>
+  <p>This is a fun meet and greet event where fans can interact, take pictures, and enjoy the experience.</p>
+</section>
+
+<section class="details">
+  <h2>Event Details</h2>
+  <p><strong>Date:</strong> August 20, 2026</p>
+  <p><strong>Location:</strong> Pierre Part, Louisiana</p>
+</section>
+
+<section class="gallery">
+  <h2>Gallery</h2>
+  <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30">
+  <img src="https://images.unsplash.com/photo-1515169067865-5387ec356754">
+  <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063">
+</section>
+
+<section class="ticket">
+  <h2>Get Your Ticket</h2>
+  <p>No real payment required (School Project)</p>
+  <button onclick="alert('Ticket feature is just for demo!')">Buy Ticket</button>
+</section>
+
+<section>
+  <h2>Contact / RSVP</h2>
+  <p>Email: event@email.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Meet & Greet Project</p>
+</footer>
+
+</body>
+</html>
